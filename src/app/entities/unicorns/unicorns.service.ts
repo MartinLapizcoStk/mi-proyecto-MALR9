@@ -28,7 +28,6 @@ public unicornsSubject = new BehaviorSubject<any>([]);
           console.log(unicorns.body)
         })
       );
-      
   }
 
   getUnicorn(id: string): Observable<HttpResponse<any>> {
